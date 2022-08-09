@@ -5,19 +5,19 @@ let word = ''
 
 // TODO: Add code below this line to make the tests pass
 
-// Use a for loop to set the sum variable to the sum of all the values in nums
+// 1. Use a for loop to set the sum variable to the sum of all the values in nums
 sum = 0
 
-// Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
+// 2. Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 const doubledNums = []
 
-// Use a for loop to set word equal to all the letters in the letters array
+// 3. Use a for loop to set word equal to all the letters in the letters array
 word = ''
 
-// Use a for loop to populate everySecondNum with every second number from the nums array
+// 4. Use a for loop to populate everySecondNum with every second number from the nums array
 const everySecondNum = []
 
-// Use a for loop to populate numsReversed with the numbers from nums in reverse order
+// 5. Use a for loop to populate numsReversed with the numbers from nums in reverse order
 const numsReversed = []
 
 // do not change below this line
