@@ -19,7 +19,7 @@ for (let i = 5; i < 7; i++) {
 // 2. Using nested for loops, add arrays to 'nestedOne' where each array has n copies of the outer 'loop index'
 //    eg [[1],[2,2],...]
 
-// 3. As 2, but each array should contain the values from the outer 'loop index' to 0 inclusive. Update array 'nestedTwo'
+// 3. As 2, but each array should contain the values from the outer 'loop index' to 1 inclusive. Update array 'nestedTwo'
 //    eg [[1],[2,1],...]
 
 // 4. As 2, but each array should contain arrays from 1 to the outer 'loop index' with the value of the outer 'loop index'. Update array 'deepOne'
@@ -29,7 +29,7 @@ for (let i = 5; i < 7; i++) {
 //       [[[1]],[[1],[1,2]],...]
 
 // 6. As 5, update the array 'deepThree', but the result should be the average of the sum of the squares of the numbers in each array
-//       [[1],[[1],[3]],...]
+//       [[1],[[1],[2.5]],...]
 
 module.exports = {
   START,
