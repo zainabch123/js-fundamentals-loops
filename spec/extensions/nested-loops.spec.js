@@ -172,94 +172,26 @@ const a6 = [
 
 describe('Nested loops', () => {
   it('Simple array', () => {
-    const expected = []
-
-    for (let i = answers.START; i <= answers.END; i++) {
-      expected.push(i)
-    }
-
     expect(answers.simpleOne).toEqual(a1)
   })
 
   it('Nested array 1.', () => {
-    const expected = []
-
-    for (let i = answers.START; i <= answers.END; i++) {
-      const inner = []
-      for (let j = 1; j <= i; j++) {
-        inner.push(i)
-      }
-      expected.push(inner)
-    }
-
     expect(answers.nestedOne).toEqual(a2)
   })
 
   it('Nested array 2.', () => {
-    const expected = []
-
-    for (let i = answers.START; i <= answers.END; i++) {
-      const inner = []
-      for (let j = i; j >= 1; j--) {
-        inner.push(j)
-      }
-      expected.push(inner)
-    }
-
     expect(answers.nestedTwo).toEqual(a3)
   })
 
   it('Deep array 1.', () => {
-    const expected = []
-
-    for (let i = answers.START; i <= answers.END; i++) {
-      const inner = []
-      for (let j = 1; j <= i; j++) {
-        const deeper = []
-        for (let k = 1; k <= j; k++) {
-          deeper.push(i)
-        }
-        inner.push(deeper)
-      }
-      expected.push(inner)
-    }
-
     expect(answers.deepOne).toEqual(a4)
   })
 
   it('Deep array 2.', () => {
-    const expected = []
-
-    for (let i = answers.START; i <= answers.END; i++) {
-      const inner = []
-      for (let j = 1; j <= i; j++) {
-        const deeper = []
-        for (let k = 1; k <= j; k++) {
-          deeper.push(k)
-        }
-        inner.push(deeper)
-      }
-      expected.push(inner)
-    }
-
     expect(answers.deepTwo).toEqual(a5)
   })
 
   it('Deep array 3.', () => {
-    const expected = []
-
-    for (let i = answers.START; i <= answers.END; i++) {
-      const inner = []
-      for (let j = 1; j <= i; j++) {
-        let sum = 0
-        for (let k = 1; k <= j; k++) {
-          sum += k * k
-        }
-        inner.push([sum / j])
-      }
-      expected.push(inner)
-    }
-
     expect(answers.deepTwo).toEqual(a6)
   })
 })
