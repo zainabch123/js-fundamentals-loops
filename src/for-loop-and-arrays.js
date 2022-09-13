@@ -1,7 +1,7 @@
-const nums = []
-nums.push(1, 3, 12, 5, 1, 6, 4, 1, 10)
-const letters = []
-letters.push('H', 'e', 'l', 'l', 'o')
+/* eslint-disable no-unused-vars */
+const nums = [1, 3, 12, 5, 1, 6, 4, 1, 10]
+/* eslint-disable no-unused-vars */
+const letters = ['H', 'e', 'l', 'l', 'o']
 let sum = 0
 let word = ''
 
