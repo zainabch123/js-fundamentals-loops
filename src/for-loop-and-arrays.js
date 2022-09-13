@@ -1,5 +1,7 @@
-const nums = [1, 3, 12, 5, 1, 6, 4, 1, 10]
-const letters = ['H', 'e', 'l', 'l', 'o']
+const nums = []
+nums.push(1, 3, 12, 5, 1, 6, 4, 1, 10)
+const letters = []
+letters.push('H', 'e', 'l', 'l', 'o')
 let sum = 0
 let word = ''
 
