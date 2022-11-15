@@ -1,7 +1,7 @@
 const nums = [1, 3, 12, 5, 1, 6, 4, 1, 10] // eslint-disable-line no-unused-vars
 const letters = ['H', 'e', 'l', 'l', 'o'] // eslint-disable-line no-unused-vars
-const sum = 0 // eslint-disable-line prefer-const
-const word = '' // eslint-disable-line prefer-const
+let sum = 0 // eslint-disable-line prefer-const
+let word = '' // eslint-disable-line prefer-const
 
 // TODO: Add code below this line to make the tests pass
 
