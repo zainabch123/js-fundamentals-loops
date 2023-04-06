@@ -1,4 +1,4 @@
-const { a, b, c, d, e } = require('../src/for-loops-and-arrays')
+const { a, b, c, d, e } = require('../src/for-loop-and-arrays')
 
 describe('For Loops and Arrays:', () => {
   it('sum of nums should be 43', () => {
