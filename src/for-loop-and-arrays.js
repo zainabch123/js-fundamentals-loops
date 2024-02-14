@@ -10,7 +10,7 @@ let word = '' // eslint-disable-line prefer-const
 // 2. Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 const doubledNums = []
 
-// 3. Use a for loop to set word equal to all the letters in the letters array
+// 3. Use a for loop to set word variable equal to all the letters in the letters array combined as a single string
 
 // 4. Use a for loop to populate everySecondNum with every second number from the nums array
 const everySecondNum = []
