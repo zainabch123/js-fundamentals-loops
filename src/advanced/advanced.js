@@ -4,76 +4,76 @@ const nums = [1, 10, 3, 9, 4, 8, 5, 7, 6, 2, -5, -2, -4, -9] // eslint-disable-l
 // note: use a break statement to exit the loop early if the value is found
 // to prove you have done this, set the variable indexOfTen to the iteration index when you find 10
 let hasTen = false
-let indexOfTen = 1
+const indexOfTen = 1
 
-for (let i = 0; i<nums.length; i++) {
+for (let i = 0; i < nums.length; i++) {
   if (nums[i] === 10) {
-    hasTen = true;
-    console.log(i);
-    break;
-    } else {
-      hasTen = false;
-    }
+    hasTen = true
+    console.log(i)
+    break
+  } else {
+    hasTen = false
+  }
 }
 
-console.log(hasTen);
+console.log(hasTen)
 
 // 2. Use a for loop to count how many numbers in the array are divisible by 3
 let divisibleByThreeCount = 0
-for (let i = 0; i<= nums.length; i++) {
-  if (nums[i] % 3 == 0) {
-    divisibleByThreeCount = divisibleByThreeCount + 1;
+for (let i = 0; i <= nums.length; i++) {
+  if (nums[i] % 3 === 0) {
+    divisibleByThreeCount = divisibleByThreeCount + 1
   }
 }
-  console.log(divisibleByThreeCount);
+console.log(divisibleByThreeCount)
 
 // 3. use a for loop to find the average of the numbers in the array
 let average = 0
-for (let i = 0; i< nums.length; i++) {
-  average += nums[i];
+for (let i = 0; i < nums.length; i++) {
+  average += nums[i]
 }
-average = average/nums.length;
-console.log(average);
+average = average / nums.length
+console.log(average)
 
 // 4. use a for loop to find the largest number in the array
 let largest = 0
-largestNum = 6
+let largestNum = 6
 
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] > largestNum) {
-    largestNum = nums[i];
-    largest = largestNum;
+    largestNum = nums[i]
+    largest = largestNum
   }
 }
 
-console.log(largest);
+console.log(largest)
 
 // 5. use a for loop to find the smallest number in the array
 let smallest = 100000
 
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] < smallest) {
-    smallest = nums[i];
+    smallest = nums[i]
   }
 }
-console.log(smallest);
+console.log(smallest)
 
 // 6. find the median of the numbers in the array
 let median = 0
-sortedNumsArray = [];
-sortedNumsArray = nums.sort((a, b) => a - b);
-console.log(sortedNumsArray);
+let sortedNumsArray = []
+sortedNumsArray = nums.sort((a, b) => a - b)
+console.log(sortedNumsArray)
+let middleValue = 0
 
 if (sortedNumsArray.length % 2 === 0) {
-  middleValue = sortedNumsArray.length / 2 - 1;
+  middleValue = sortedNumsArray.length / 2 - 1
 } else {
-  middleValue = sortedNumsArray.length / 2;
+  middleValue = sortedNumsArray.length / 2
 }
-console.log(middleValue);
+console.log(middleValue)
 
-median = sortedNumsArray[middleValue];
-console.log(median);
-
+median = sortedNumsArray[middleValue]
+console.log(median)
 
 module.exports = {
   hasTen,

@@ -12,10 +12,9 @@ const deepThree = []
 //    eg [1,2,3...]
 
 for (let i = 1; i <= 10; i++) {
-  simpleOne.push(i);
+  simpleOne.push(i)
 }
-console.log(simpleOne);
-
+console.log(simpleOne)
 
 // HINT: in the below loop, the statements and block of code needs to be changed
 // HINT: in the below loop, the var i represents the loop index
@@ -26,27 +25,26 @@ console.log(simpleOne);
 // 2. Using nested for loops, add arrays to 'nestedOne' where each array has n copies of the outer 'loop index'
 //    eg [[1],[2,2],...]
 
-for (let i = 1; i<=simpleOne.length; i++) {
-  let innerArray = []
-  for (j = 1; j<= i; j++) {
-    innerArray.push(i);
+for (let i = 1; i <= simpleOne.length; i++) {
+  const innerArray = []
+  for (let j = 1; j <= i; j++) {
+    innerArray.push(i)
   }
-  nestedOne.push(innerArray);
+  nestedOne.push(innerArray)
 }
-console.log(nestedOne);
+console.log(nestedOne)
 
 // 3. As 2, but each array should contain the values from the outer 'loop index' to 1 inclusive. Update array 'nestedTwo'
 //    eg [[1],[2,1],...]
 
-for (let i = 1; i<=simpleOne.length; i++) {
-let innerArray = []
-  for (j = 1; j<= i; j++) {
-    innerArray.push(i);
+for (let i = 1; i <= simpleOne.length; i++) {
+  const innerArray = []
+  for (let j = 1; j <= i; j++) {
+    innerArray.push(i)
   }
-  nestedTwo.push(innerArray);
+  nestedTwo.push(innerArray)
 }
-console.log(nestedTwo);
-
+console.log(nestedTwo)
 
 // 4. As 2, but each array should contain arrays from 1 to the outer 'loop index' with the value of the outer 'loop index'. Update array 'deepOne'
 //    eg [[[1]],[[2],[2,2]],...]
